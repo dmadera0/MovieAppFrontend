@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    color: snow;
+}
+body {
+    background: #081422;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+} 
+div.text {
+    text-align: center;
+    font-size: 15px;
+    color: snow;
+}
+
+img {
+    padding: 10px;
+    background: grey;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+h4 #home {
+    text-decoration: none;
+}
+
+h4 {
+    text-align: center;
+}
+
+.text {
+    /* display: flex; */
+    text-align: center;
+   
+    margin-right: 30px;
+}
